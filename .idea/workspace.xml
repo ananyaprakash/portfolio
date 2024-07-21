@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="altered tsparticles screen width, fixed errros in about, added to skills" />
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="altered footer text">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721602715079</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="altered footer text">
+      <option name="closed" value="true" />
+      <created>1721602792431</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721602792431</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +191,7 @@
     <MESSAGE value="altered me.jpg dimensions, modified skills section to include areas and icons, enabled ts particles" />
     <MESSAGE value="new bg image, altered skills css" />
     <MESSAGE value="altered tsparticles screen width, fixed errros in about, added to skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="altered tsparticles screen width, fixed errros in about, added to skills" />
+    <MESSAGE value="altered footer text" />
+    <option name="LAST_COMMIT_MESSAGE" value="altered footer text" />
   </component>
 </project>
