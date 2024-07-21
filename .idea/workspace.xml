@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="modified index file">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="updated image files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721532814471</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated image files">
+      <option name="closed" value="true" />
+      <created>1721536354734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721536354734</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated image files">
+      <option name="closed" value="true" />
+      <created>1721536521393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721536521393</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added bootstrap files" />
     <MESSAGE value="modified index file" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified index file" />
+    <MESSAGE value="updated image files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated image files" />
   </component>
 </project>
