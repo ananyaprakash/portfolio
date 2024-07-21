@@ -30,7 +30,7 @@ body::before {
 }
 #tsparticles {
   position: absolute;
-  width: 100%;
+  width: 75%;
   height: 100vh; /* This covers the full viewport height */
   top: 0;
   left: 0;
@@ -533,8 +533,8 @@ section .container {
 .category {
   flex: 1 1 20%; /* Adjust size here */
   margin: 10px;
+  background: rgba(0, 0, 0, 0.9);
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.08);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
