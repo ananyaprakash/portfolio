@@ -105,11 +105,12 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-6" data-aos="fade-right">
+        <div class="col-lg-4" data-aos="fade-right">
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-2 content" data-aos="fade-left">
-          <h3>Data Everything</h3>
+        <div class="row">
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Only data makes sense.</h3>
           <p class="fst-italic">
             I am driven by a profound passion for solving intricate business problems through innovative data science techniques. My expertise spans data exploration, visualization, and developing machine learning solutions to optimize business processes.
 
@@ -136,6 +137,7 @@
 
             Follow and connect with me on LinkedIn to stay updated on my Tech journey!
           </p>
+        </div>
         </div>
       </div>
 
@@ -247,10 +249,12 @@
 
 <!--    </div>&lt;!&ndash; End Skills &ndash;&gt;-->
 
-    <div class="skills-container">
+    <div class="skills-container container">
+
       <div class="section-title">
                 <h2>Skills</h2>
       </div>
+      <div class="row">
       <div class="category">
         <h3>Machine Learning</h3>
         <div class="skills-logos">
@@ -306,6 +310,8 @@
               </div>
             </div>
       </div>
+      </div>
+      <div class="row">
       <div class="category">
         <h3>Data Visualization</h3>
         <div class="skills-logos">
@@ -339,6 +345,7 @@
             Splunk
           </div>
         </div>
+      </div>
       </div>
         </div>
 
@@ -902,7 +909,7 @@
   <script>
     tsParticles.load("tsparticles", {
       fullScreen: {
-        enable: true, // This will make tsParticles use the full screen
+        enable: false, // This will make tsParticles use the full screen
         zIndex: -1   // This keeps the particles in the background
       },
       particles: {
@@ -952,29 +959,29 @@
           },
           onclick: {
             enable: true,
-            mode: "push" // How particles behave on click
+            mode: "grab" // How particles behave on click
           },
           resize: true // Ensures particles layout resizes correctly
         },
         modes: {
           grab: {
-            distance: 400,
+            distance: 40,
             line_linked: {
               opacity: 1
             }
           },
           bubble: {
-            distance: 400,
+            distance: 90,
             size: 30,
             duration: 3,
             opacity: 8,
             speed: 3
           },
           repulse: {
-            distance: 100,
-            duration: 0.6,
-            speed: 1
-
+            distance: 100,   // The maximum distance of the repulse effect from the cursor
+            duration: 0.4,   // Reducing the duration to make the effect bounce back faster
+            speed: 3,        // The speed of the repulse effect; increase if needed for faster reaction
+            easing: "ease-out"  // Adding an easing effect for a smoother transition
           },
           push: {
             particles_nb: 4
