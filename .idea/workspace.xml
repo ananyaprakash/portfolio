@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="added bootstrap files">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="modified index file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/me.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721528518410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modified index file">
+      <option name="closed" value="true" />
+      <created>1721532814471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721532814471</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added bootstrap files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bootstrap files" />
+    <MESSAGE value="modified index file" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified index file" />
   </component>
 </project>
