@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="addd icons to interest, changed about layout, fixed skills">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="added experience and education, try to fix about me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721611361972</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added experience and education, try to fix about me">
+      <option name="closed" value="true" />
+      <created>1721613730417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721613730417</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +227,7 @@
     <MESSAGE value="fixed issues in about, altered css of skills" />
     <MESSAGE value="added interests, modified about css" />
     <MESSAGE value="addd icons to interest, changed about layout, fixed skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="addd icons to interest, changed about layout, fixed skills" />
+    <MESSAGE value="added experience and education, try to fix about me" />
+    <option name="LAST_COMMIT_MESSAGE" value="added experience and education, try to fix about me" />
   </component>
 </project>
