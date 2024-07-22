@@ -532,7 +532,8 @@ section .container {
 }
 .category {
   display: flex;
-
+  margin: 10px;
+  padding: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   align-items: center;
   background: rgba(255, 255, 255, 0.08);
