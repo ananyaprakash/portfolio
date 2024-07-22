@@ -109,11 +109,19 @@
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
 
-        <div class="col-lg-8" data-aos="fade-left">
+        <div class="col-lg-8 content" data-aos="fade-left">
 
-          <h3>Only data makes sense.</h3>
+          <h3>Data Nerd </h3>
           <p class="fst-italic">
-            I am driven by a profound passion for solving intricate business problems through innovative data science techniques. My expertise spans the whole gamut of technology product development from data exploration and mining, research, UI design, AI automation, software engineering and deployment, and visualization of business insights. You name it, I can build it!
+            Only data makes sense. </p>
+          <p> I am driven by a profound passion for solving intricate business problems through innovative data science techniques.
+
+            Though primarily a data junkie, my expertise spans the whole gamut of technology product development from data exploration and mining, research, UI design, AI automation, software engineering and deployment, and visualization of business insights.
+            You name it, I can build it!
+
+            I am also drawn to the human-computer aspects of technology, so if you ever want to debate on the ethics or social aspects of a tech product, I'm your girl.
+
+
           </p>
 
 <!--            <div class="col-lg-6">-->
@@ -134,7 +142,8 @@
 <!--            </div>-->
 
           <p>
-            Follow and connect with me on LinkedIn to stay updated on my Tech journey!
+            You can often find me in data + diversity conferences like #WiDS, #GHC and #ACM conferences.
+             Follow and connect with me on LinkedIn to stay updated on my Tech journey!
           </p>
 
         </div>
@@ -163,6 +172,15 @@
     </div><!-- End About Me -->
 
     <!-- ======= Counts ======= -->
+
+    <script>
+      function recount(element) {
+        var counter = element.querySelector('.purecounter');
+        var endValue = counter.getAttribute('data-purecounter-end');
+        new PureCounter().animateCounter(counter, 0, parseInt(endValue), 1500); // Adjust the duration as necessary
+      }
+    </script>
+
     <div class="counts container">
 
       <div class="row">
@@ -176,9 +194,9 @@
         </div>
 
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
+          <div class="count-box"  onmouseover="recount(this)">
             <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1.5" class="purecounter"></span>
             <p>AI Projects</p>
           </div>
         </div>
@@ -468,89 +486,89 @@
     </div><!-- End Interests -->
 
     <!-- ======= Testimonials ======= -->
-    <div class="testimonials container">
+<!--    <div class="testimonials container">-->
 
-      <div class="section-title">
-        <h2>Testimonials</h2>
-      </div>
+<!--      <div class="section-title">-->
+<!--        <h2>Testimonials</h2>-->
+<!--      </div>-->
 
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
+<!--      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">-->
+<!--        <div class="swiper-wrapper">-->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-            </div>
-          </div><!-- End testimonial item -->
+<!--          <div class="swiper-slide">-->
+<!--            <div class="testimonial-item">-->
+<!--              <p>-->
+<!--                <i class="bx bxs-quote-alt-left quote-icon-left"></i>-->
+<!--                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.-->
+<!--                <i class="bx bxs-quote-alt-right quote-icon-right"></i>-->
+<!--              </p>-->
+<!--              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">-->
+<!--              <h3>Saul Goodman</h3>-->
+<!--              <h4>Ceo &amp; Founder</h4>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End testimonial item &ndash;&gt;-->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-            </div>
-          </div><!-- End testimonial item -->
+<!--          <div class="swiper-slide">-->
+<!--            <div class="testimonial-item">-->
+<!--              <p>-->
+<!--                <i class="bx bxs-quote-alt-left quote-icon-left"></i>-->
+<!--                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.-->
+<!--                <i class="bx bxs-quote-alt-right quote-icon-right"></i>-->
+<!--              </p>-->
+<!--              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">-->
+<!--              <h3>Sara Wilsson</h3>-->
+<!--              <h4>Designer</h4>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End testimonial item &ndash;&gt;-->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-            </div>
-          </div><!-- End testimonial item -->
+<!--          <div class="swiper-slide">-->
+<!--            <div class="testimonial-item">-->
+<!--              <p>-->
+<!--                <i class="bx bxs-quote-alt-left quote-icon-left"></i>-->
+<!--                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.-->
+<!--                <i class="bx bxs-quote-alt-right quote-icon-right"></i>-->
+<!--              </p>-->
+<!--              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">-->
+<!--              <h3>Jena Karlis</h3>-->
+<!--              <h4>Store Owner</h4>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End testimonial item &ndash;&gt;-->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-            </div>
-          </div><!-- End testimonial item -->
+<!--          <div class="swiper-slide">-->
+<!--            <div class="testimonial-item">-->
+<!--              <p>-->
+<!--                <i class="bx bxs-quote-alt-left quote-icon-left"></i>-->
+<!--                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.-->
+<!--                <i class="bx bxs-quote-alt-right quote-icon-right"></i>-->
+<!--              </p>-->
+<!--              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">-->
+<!--              <h3>Matt Brandon</h3>-->
+<!--              <h4>Freelancer</h4>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End testimonial item &ndash;&gt;-->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-            </div>
-          </div><!-- End testimonial item -->
+<!--          <div class="swiper-slide">-->
+<!--            <div class="testimonial-item">-->
+<!--              <p>-->
+<!--                <i class="bx bxs-quote-alt-left quote-icon-left"></i>-->
+<!--                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.-->
+<!--                <i class="bx bxs-quote-alt-right quote-icon-right"></i>-->
+<!--              </p>-->
+<!--              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">-->
+<!--              <h3>John Larson</h3>-->
+<!--              <h4>Entrepreneur</h4>-->
+<!--            </div>-->
+<!--          </div>&lt;!&ndash; End testimonial item &ndash;&gt;-->
 
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
+<!--        </div>-->
+<!--        <div class="swiper-pagination"></div>-->
+<!--      </div>-->
 
-      <div class="owl-carousel testimonials-carousel">
+<!--      <div class="owl-carousel testimonials-carousel">-->
 
-      </div>
+<!--      </div>-->
 
-    </div><!-- End Testimonials  -->
+<!--    </div>&lt;!&ndash; End Testimonials  &ndash;&gt;-->
 
   </section><!-- End About Section -->
 
@@ -872,9 +890,10 @@
 
         <div class="col-md-6 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>ananya23@vt.edu</p>
+          </div>
           </div>
         </div>
 
@@ -883,53 +902,53 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+<!--              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
+<!--              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
+<!--              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
+              <a href="https://www.linkedin.com/in/prakashananya/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/ananyaprakash?tab=repositories" class="github"><i class="bi bi-github"></i></a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>contact@example.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
-          </div>
-        </div>
-      </div>
+<!--        <div class="col-md-6 mt-4 d-flex align-items-stretch">-->
+<!--          <div class="info-box">-->
+<!--            <i class="bx bx-envelope"></i>-->
+<!--            <h3>Email Me</h3>-->
+<!--            <p>contact@example.com</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-6 mt-4 d-flex align-items-stretch">-->
+<!--          <div class="info-box">-->
+<!--            <i class="bx bx-phone-call"></i>-->
+<!--            <h3>Call Me</h3>-->
+<!--            <p>+1 5589 55488 55</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
 
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
+<!--      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">-->
+<!--        <div class="row">-->
+<!--          <div class="col-md-6 form-group">-->
+<!--            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>-->
+<!--          </div>-->
+<!--          <div class="col-md-6 form-group mt-3 mt-md-0">-->
+<!--            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="form-group mt-3">-->
+<!--          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>-->
+<!--        </div>-->
+<!--        <div class="form-group mt-3">-->
+<!--          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>-->
+<!--        </div>-->
+<!--        <div class="my-3">-->
+<!--          <div class="loading">Loading</div>-->
+<!--          <div class="error-message"></div>-->
+<!--          <div class="sent-message">Your message has been sent. Thank you!</div>-->
+<!--        </div>-->
+<!--        <div class="text-center"><button type="submit">Send Message</button></div>-->
+<!--      </form>-->
 
     </div>
   </section><!-- End Contact Section -->
