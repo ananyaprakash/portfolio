@@ -417,6 +417,8 @@ section .container {
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
+  padding: 10px;
+  margin-top:10px;
   font-size: 26px;
   color: #18d26e;
 }
@@ -444,6 +446,7 @@ section .container {
 }
 
 .about-me .content p:last-child {
+  padding:10px;
   margin-bottom: 0;
 }
 
@@ -528,10 +531,10 @@ section .container {
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
+  padding: 30px;
 }
 .category {
   display: flex;
-  margin: 10px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   align-items: center;
