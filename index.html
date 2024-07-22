@@ -70,6 +70,7 @@
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2><span>Data Scientist. </span>  Software Engineer.  Graphic Designer. </h2>
 
+
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
@@ -83,6 +84,10 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
+
+      <p></p>
+      <p class="fst-italic" style="{{font-size: x-small}}"> Hover over the networks to interact with it!</p>
+      <p></p>
       <div class="social-links">
 <!--        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
 <!--        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
@@ -109,9 +114,9 @@
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
 
-        <div class="col-lg-8 content" data-aos="fade-left">
+        <div class="col-lg-8" data-aos="fade-left">
 
-          <h3>Data Nerd </h3>
+          <h3>Data Nerd</h3>
           <p class="fst-italic">
             Only data makes sense. </p>
           <p> I am driven by a profound passion for solving intricate business problems through innovative data science techniques.
@@ -172,7 +177,7 @@
     </div><!-- End About Me -->
 
     <!-- ======= Counts ======= -->
-
+    <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1/dist/purecounter_vanilla.js"></script>
     <script>
       function recount(element) {
         var counter = element.querySelector('.purecounter');
@@ -886,18 +891,18 @@
         <p>Contact Me</p>
       </div>
 
-      <div class="row mt-2">
+      <div class="row">
 
-        <div class="col-md-6 d-flex align-items-stretch">
+
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email Me</h3>
             <p>ananya23@vt.edu</p>
           </div>
           </div>
-        </div>
+    </div>
 
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+    <div class="row">
           <div class="info-box">
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
@@ -1025,7 +1030,7 @@
           },
           onclick: {
             enable: true,
-            mode: "grab" // How particles behave on click
+            mode: "bubble" // How particles behave on click
           },
           resize: true // Ensures particles layout resizes correctly
         },
@@ -1041,12 +1046,12 @@
             size: 30,
             duration: 3,
             opacity: 8,
-            speed: 3
+            speed: 6,
           },
           repulse: {
             distance: 200,
-            duration: 0.2,
-            speed: 10,
+            duration: 0.09,
+            speed: 15,
             easing: "ease-out"
           },
           push: {
