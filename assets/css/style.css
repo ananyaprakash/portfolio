@@ -526,14 +526,14 @@ section .container {
   background-color: #18d26e;
 }
 .skills .container {
-  margin: 5px 8px;
+
   height: 60px;
   padding: 5px 8px;
 }
 .category {
   display: flex;
-  margin: 10px;
-  padding: 5px;
+  margin-right: 2px;
+  padding: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   align-items: center;
   background: rgba(255, 255, 255, 0.08);
@@ -558,7 +558,7 @@ section .container {
   align-items: center;
 }
 .skill-item img {
-  height: 40px; /* Adjust based on your preference */
+  height: 30px; /* Adjust based on your preference */
   margin-bottom: 5px;
 }
 /*--------------------------------------------------------------
