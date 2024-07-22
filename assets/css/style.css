@@ -527,12 +527,12 @@ section .container {
 }
 .skills .container {
 
-  height: 60px;
+
   padding: 5px 8px;
 }
 .category {
   display: flex;
-  margin-right: 2px;
+  margin: 5px 2px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   align-items: center;

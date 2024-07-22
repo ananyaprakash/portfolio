@@ -5,29 +5,29 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Bootstrap Template</title>
+  <title>Ananya's Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-  <style>
-    /* Setting the size of the container to cover the whole screen */
-    #tsparticles {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1; /* Put the particles background behind other content */
-    }
-    /* Ensure the content sits above the particle background */
-    .content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      color: white;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  </style>
+<!--  <style>-->
+<!--    /* Setting the size of the container to cover the whole screen */-->
+<!--    #tsparticles {-->
+<!--      position: absolute;-->
+<!--      top: 0;-->
+<!--      left: 0;-->
+<!--      width: 100%;-->
+<!--      height: 100%;-->
+<!--      z-index: -1; /* Put the particles background behind other content */-->
+<!--    }-->
+<!--    /* Ensure the content sits above the particle background */-->
+<!--    .content {-->
+<!--      position: relative;-->
+<!--      z-index: 2;-->
+<!--      text-align: center;-->
+<!--      color: white;-->
+<!--      top: 50%;-->
+<!--      transform: translateY(-50%);-->
+<!--    }-->
+<!--  </style>-->
   <!-- ts particles -->
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.41.0"></script>
 
@@ -85,9 +85,7 @@
       </nav><!-- .navbar -->
 
 
-      <p></p>
-      <p class="fst-italic" style="{{font-size: x-small}}"> Hover over the networks to interact with it!</p>
-      <p></p>
+
       <div class="social-links">
 <!--        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
 <!--        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
@@ -97,6 +95,9 @@
 
     </div>
   </header><!-- End Header -->
+  <p></p>
+  <p class="fst-italic" style="{{font-size: x-small}}"> Hover over the networks to interact with it!</p>
+  <p></p>
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
@@ -178,13 +179,7 @@
 
     <!-- ======= Counts ======= -->
     <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1/dist/purecounter_vanilla.js"></script>
-    <script>
-      function recount(element) {
-        var counter = element.querySelector('.purecounter');
-        var endValue = counter.getAttribute('data-purecounter-end');
-        new PureCounter().animateCounter(counter, 0, parseInt(endValue), 1500); // Adjust the duration as necessary
-      }
-    </script>
+
 
     <div class="counts container">
 
@@ -193,15 +188,22 @@
         <div class="col-lg-3 col-md-6">
           <div class="count-box">
             <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter" data-purecounter-once="false"></span>
             <p>Years of Coding</p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box"  onmouseover="recount(this)">
+          <script>
+            function recount(element) {
+              var counter = element.querySelector('.purecounter');
+              var endValue = counter.getAttribute('data-purecounter-end');
+              new PureCounter().animateCounter(counter, 0, parseInt(endValue), 1500); // Adjust the duration as necessary
+            }
+          </script>
+          <div class="count-box">
             <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1.5" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1.5" class="purecounter" data-purecounter-once="false"></span>
             <p>AI Projects</p>
           </div>
         </div>
@@ -209,7 +211,7 @@
         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
           <div class="count-box">
             <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter" data-purecounter-once="false"></span>
             <p>Tech Conferences</p>
           </div>
         </div>
@@ -346,7 +348,7 @@
 
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col">
           <div class="category">
             <h3>Cloud Computing</h3>
             <div class="skills-logos">
@@ -361,7 +363,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col">
         <div class="category">
         <h3>Data Visualization</h3>
         <div class="skills-logos">
@@ -380,7 +382,7 @@
         </div>
       </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col">
       <div class="category">
         <h3>DevOps</h3>
         <div class="skills-logos">
@@ -899,8 +901,8 @@
             <h3>Email Me</h3>
             <p>ananya23@vt.edu</p>
           </div>
-          </div>
-    </div>
+      </div>
+
 
     <div class="row">
           <div class="info-box">
@@ -915,6 +917,7 @@
             </div>
           </div>
         </div>
+    </div>
 
 <!--        <div class="col-md-6 mt-4 d-flex align-items-stretch">-->
 <!--          <div class="info-box">-->
@@ -955,7 +958,7 @@
 <!--        <div class="text-center"><button type="submit">Send Message</button></div>-->
 <!--      </form>-->
 
-    </div>
+
   </section><!-- End Contact Section -->
 
   <div class="credits">
@@ -1026,7 +1029,7 @@
         events: {
           onhover: {
             enable: true,
-            mode: "repulse" // How particles behave on hover
+            mode: "bubble" // How particles behave on hover
           },
           onclick: {
             enable: true,
@@ -1042,16 +1045,17 @@
             }
           },
           bubble: {
-            distance: 90,
-            size: 30,
-            duration: 3,
-            opacity: 8,
+            distance: 120,
+            size: 50,
+            duration: 1.5,
+            opacity: 10,
             speed: 6,
+
           },
           repulse: {
-            distance: 200,
-            duration: 0.09,
-            speed: 15,
+            distance: 150,
+            duration: 1.5,
+            speed: 12,
             easing: "ease-out"
           },
           push: {
