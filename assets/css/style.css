@@ -167,7 +167,7 @@ h6 {
 }
 
 #header.header-top .social-links,
-#header.header-top h2 {
+#header.header-top h2, #header.header-top p {
   display: none;
 }
 
@@ -546,7 +546,7 @@ section .container {
 
 }
 .skills-logos {
-  padding: 5px 5px;
+  padding: 7px 10px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -1050,6 +1050,8 @@ section .container {
 --------------------------------------------------------------*/
 .contact .container {
   width: 50%;
+  justify-self: flex-start;
+
 }
 .contact .info-box {
   color: #444444;

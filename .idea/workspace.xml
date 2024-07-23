@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="modified about text, tried to recount counter on hover, fixed css of about me and contact">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Ananya_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Ananya_Resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/skills/docker.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,11 @@
     <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ananyaprakash &lt;35228822+ananyaprakash@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -263,7 +271,95 @@
       <option name="project" value="LOCAL" />
       <updated>1721692293641</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modified about text, tried to recount counter on hover, fixed css of about me and contact">
+      <option name="closed" value="true" />
+      <created>1721702334888</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702334888</updated>
+    </task>
+    <task id="LOCAL-00026" summary="modified about text, tried to recount counter on hover, fixed css of about me and contact">
+      <option name="closed" value="true" />
+      <created>1721702385517</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702385517</updated>
+    </task>
+    <task id="LOCAL-00027" summary="modified about text, tried to recount counter on hover, fixed css of about me and contact">
+      <option name="closed" value="true" />
+      <created>1721702425706</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702425706</updated>
+    </task>
+    <task id="LOCAL-00028" summary="modified about text, tried to recount counter on hover, fixed css of about me and contact">
+      <option name="closed" value="true" />
+      <created>1721702434192</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702434192</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added icons">
+      <option name="closed" value="true" />
+      <created>1721702445062</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702445062</updated>
+    </task>
+    <task id="LOCAL-00030" summary="modified about text, tried to recount counter on hover, fixed css of about me and contact">
+      <option name="closed" value="true" />
+      <created>1721702464624</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702464624</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added skill icons">
+      <option name="closed" value="true" />
+      <created>1721702507816</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702507816</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch">
+      <option name="closed" value="true" />
+      <created>1721702522351</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702522351</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch">
+      <option name="closed" value="true" />
+      <created>1721702534854</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702534854</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch">
+      <option name="closed" value="true" />
+      <created>1721702575664</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702575664</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch">
+      <option name="closed" value="true" />
+      <created>1721702601503</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1721702601503</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +394,10 @@
     <MESSAGE value="added resume download option, try to fix about me" />
     <MESSAGE value="attempt to fix about" />
     <MESSAGE value="modified about text, removed message feature, removed testimonials, modified counter" />
+    <MESSAGE value="added icons" />
     <MESSAGE value="modified about text, tried to recount counter on hover, fixed css of about me and contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified about text, tried to recount counter on hover, fixed css of about me and contact" />
+    <MESSAGE value="added skill icons" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch" />
   </component>
 </project>
