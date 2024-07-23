@@ -66,7 +66,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  margin-top: 30vh;
+  top: 30vh;
   height: 50vh;
   transition: ease-in-out 0.3s;
   position: relative;
@@ -168,7 +168,7 @@ h6 {
 
 /* Header Top */
 #header.header-top {
-  margin-top: 0;
+
   height: 80px;
   position: fixed;
   left: 0;
