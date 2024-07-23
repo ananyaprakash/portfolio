@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="fixed docker bug, css changes">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="css changes home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -364,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721703762454</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="css changes home page">
+      <option name="closed" value="true" />
+      <created>1721704489607</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1721704489607</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +412,7 @@
     <MESSAGE value="added skill icons" />
     <MESSAGE value="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch" />
     <MESSAGE value="fixed docker bug, css changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed docker bug, css changes" />
+    <MESSAGE value="css changes home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="css changes home page" />
   </component>
 </project>
