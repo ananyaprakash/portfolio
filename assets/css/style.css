@@ -66,8 +66,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  top: 30vh;
-  height: 50vh;
+  top: 10vh;
+  height: 40vh;
   transition: ease-in-out 0.3s;
   position: relative;
   display: flex;
