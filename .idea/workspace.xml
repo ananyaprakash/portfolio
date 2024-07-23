@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="contact page css, edited resume">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="edited css of home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -428,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721708380940</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="edited css of home page">
+      <option name="closed" value="true" />
+      <created>1721741708026</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1721741708026</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing tsparticle library" />
     <MESSAGE value="edited bg img extn" />
     <MESSAGE value="altered me.jpg dimensions, modified skills section to include areas and icons" />
     <MESSAGE value="altered me.jpg dimensions, modified skills section to include areas and icons, enabled ts particles" />
@@ -471,6 +478,7 @@
     <MESSAGE value="header height changed css" />
     <MESSAGE value="contact page css" />
     <MESSAGE value="contact page css, edited resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact page css, edited resume" />
+    <MESSAGE value="edited css of home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited css of home page" />
   </component>
 </project>
