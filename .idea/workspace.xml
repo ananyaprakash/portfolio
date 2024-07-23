@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="tsparticles change">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="contact page css">
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -394,7 +394,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721705871973</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="header height changed css">
+      <option name="closed" value="true" />
+      <created>1721706159608</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1721706159608</updated>
+    </task>
+    <task id="LOCAL-00042" summary="contact page css">
+      <option name="closed" value="true" />
+      <created>1721706350993</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1721706350993</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,8 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added bootstrap files" />
-    <MESSAGE value="modified index file" />
     <MESSAGE value="updated image files" />
     <MESSAGE value="testing tsparticle library" />
     <MESSAGE value="edited bg img extn" />
@@ -437,6 +451,8 @@
     <MESSAGE value="css changes home page, testing portfolio pages" />
     <MESSAGE value="css changes home page" />
     <MESSAGE value="tsparticles change" />
-    <option name="LAST_COMMIT_MESSAGE" value="tsparticles change" />
+    <MESSAGE value="header height changed css" />
+    <MESSAGE value="contact page css" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact page css" />
   </component>
 </project>
