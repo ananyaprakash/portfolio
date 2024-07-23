@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch">
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="fixed docker bug, css changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Ananya_Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Ananya_Resume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/skills/docker.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721702601503</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fixed docker bug, css changes">
+      <option name="closed" value="true" />
+      <created>1721703762454</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1721703762454</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +403,7 @@
     <MESSAGE value="modified about text, tried to recount counter on hover, fixed css of about me and contact" />
     <MESSAGE value="added skill icons" />
     <MESSAGE value="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch" />
+    <MESSAGE value="fixed docker bug, css changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed docker bug, css changes" />
   </component>
 </project>
