@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="css changes home page, testing portfolio pages">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="5055d12b-addf-44c1-a4fc-0fce4dc8ad69" name="Changes" comment="tsparticles change">
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,7 +378,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721705434259</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="css changes home page">
+      <option name="closed" value="true" />
+      <created>1721705783412</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1721705783412</updated>
+    </task>
+    <task id="LOCAL-00040" summary="tsparticles change">
+      <option name="closed" value="true" />
+      <created>1721705871973</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1721705871973</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,8 +434,9 @@
     <MESSAGE value="added skill icons" />
     <MESSAGE value="Merge remote-tracking branch 'origin/ananyaprakash-working-branch' into ananyaprakash-working-branch" />
     <MESSAGE value="fixed docker bug, css changes" />
-    <MESSAGE value="css changes home page" />
     <MESSAGE value="css changes home page, testing portfolio pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="css changes home page, testing portfolio pages" />
+    <MESSAGE value="css changes home page" />
+    <MESSAGE value="tsparticles change" />
+    <option name="LAST_COMMIT_MESSAGE" value="tsparticles change" />
   </component>
 </project>
