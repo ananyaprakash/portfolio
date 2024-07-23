@@ -66,8 +66,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 50%;
-  width: 50%;
+  height: 60vh;
   transition: ease-in-out 0.3s;
   position: relative;
   display: flex;
