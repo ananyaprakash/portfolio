@@ -65,26 +65,26 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-/*#header {*/
-/*  top: 10vh;*/
-/*  height: 40vh;*/
-/*  transition: ease-in-out 0.3s;*/
-/*  position: relative;*/
-/*  display: flex;*/
-/*  align-items: center;*/
-/*  align-self: center;*/
-/*  z-index: 997;*/
-/*  overflow-y: auto;*/
-/*}*/
 #header {
+  top: 10vh;
+  height: 40vh;
   transition: ease-in-out 0.3s;
   position: relative;
-  height: 100vh;
   display: flex;
   align-items: center;
+  align-self: center;
   z-index: 997;
   overflow-y: auto;
 }
+/*#header {*/
+/*  transition: ease-in-out 0.3s;*/
+/*  position: relative;*/
+/*  height: 100vh;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  z-index: 997;*/
+/*  overflow-y: auto;*/
+/*}*/
 
 #header * {
   transition: ease-in-out 0.3s;
